@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
  * The main game "loop", called when the script is first loaded
  * and after the user's answer has been processed
  */
+
 function runGame(gameType) {
 
     // Creates two random numbers between 1 and 25
@@ -55,10 +56,10 @@ function incrementWrongAnswer() {
 }
 
 function displayAdditionQuestion(operand1, operand2) {
-
-    document.getElementById('operand1').textContent = operand1;
-    document.getElementById('operand2').textContent = operand2;
-    document.getElementById('operator').textContent = "+";
+    
+    document.getElementById("operand1").textContent = operand1;
+    document.getElementById("operand2").textContent = operand2;
+    document.getElementById("operator").textContent = "+";
     
 }
 
